@@ -10,6 +10,10 @@ repositories {
 }
 
 dependencies {
+
+    implementation("com.beust:jcommander:1.78")
+    implementation("com.google.code.gson:gson:2.8.9")
+
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
